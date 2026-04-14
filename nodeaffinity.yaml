@@ -15,6 +15,7 @@ spec:
             operator: In
             values:
             - us-east-1d
+            - us-east-1c
       # Soft Rule
   containers:
   - name: nginx
