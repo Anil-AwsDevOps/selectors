@@ -9,8 +9,8 @@ spec:
   - name: nginx
     image: nginx
   # asking for VIP room
-  # nodeSelector:
-  #   project: roboshop
+  nodeSelector:
+    project: roboshop
   # showing booking confirmation
   tolerations:
   - key: "project"
